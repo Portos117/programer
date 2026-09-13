@@ -1,0 +1,124 @@
+/* Základné nastavenia pre celý dokument */
+body {
+    font-family: 'Arial', sans-serif; /* Pekný font pre čitateľnosť */
+    margin: 0; /* Odstráni predvolené okraje prehliadača */
+    line-height: 1.6; /* Zvýši riadkovanie pre lepšiu čitateľnosť */
+    background-color: #f4f4f4; /* Jemné sivé pozadie */
+    color: #333; /* Tmavý text pre dobrý kontrast */
+}
+
+/* Hlavička */
+header {
+    background: #333; /* Tmavé pozadie hlavičky */
+    color: #fff; /* Biele texty */
+    padding: 1rem 0; /* Vnútorný okraj hore/dole */
+    text-align: center; /* Zarovnanie textu na stred */
+    border-bottom: #70db70 3px solid; /* Zelený spodný okraj */
+}
+
+header h1 {
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+/* Navigácia */
+nav ul {
+    padding: 0;
+    list-style: none; /* Odstráni bodky zoznamu */
+}
+
+nav ul li {
+    display: inline; /* Zobrazí položky zoznamu vedľa seba */
+    margin: 0 15px; /* Vzdialenosť medzi položkami */
+}
+
+nav a {
+    color: #fff; /* Biela farba odkazov */
+    text-decoration: none; /* Odstráni podčiarknutie odkazov */
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #70db70; /* Zelená farba pri prejdení myšou */
+}
+
+/* Hlavný obsah */
+main {
+    padding: 20px;
+    max-width: 1100px; /* Maximálna šírka obsahu */
+    margin: 30px auto; /* Zarovnanie na stred a pridanie okrajov hore/dole */
+    background: #fff; /* Biele pozadie hlavného obsahu */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Jemný tieň */
+}
+
+/* Sekcie */
+section {
+    margin-bottom: 30px; /* Vzdialenosť medzi sekciami */
+    padding: 20px;
+    border-bottom: 1px solid #eee; /* Jemný okraj medzi sekciami */
+}
+
+section h2 {
+    color: #70db70; /* Zelený nadpis sekcie */
+    margin-bottom: 15px;
+}
+
+/* Úvodná sekcia */
+#uvod {
+    text-align: center; /* Zarovnanie obsahu na stred */
+}
+
+#uvod p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#uvod button {
+    display: inline-block;
+    background: #70db70; /* Zelené tlačidlo */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Zaoblené rohy */
+    cursor: pointer; /* Ukazovateľ myši sa zmení na ukazovateľ */
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Plynulá zmena farby pri prejazde */
+}
+
+#uvod button:hover {
+    background: #5cb85c; /* Tmavšia zelená pri prejdení myšou */
+}
+
+/* Sekcia s hrami */
+.hra {
+    border: 1px solid #ddd; /* Jemný okraj okolo každej hry */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Jemné pozadie pre každú hru */
+}
+
+.hra h3 {
+    margin-top: 0;
+    color: #555;
+}
+
+.hra a {
+    color: #70db70;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hra a:hover {
+    text-decoration: underline; /* Podčiarknutie pri prejdení myšou */
+}
+
+/* Pätička */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #fff; /* Biele písmo v pätičke */
+    background: #333; /* Tmavé pozadie */
+}
